@@ -14,7 +14,7 @@ public interface IRawInboundEnvelope : IRawBrokerEnvelope
 {
     /// <summary>
     ///     Gets the source endpoint. It is mostly relevant when the <see cref="EndpointConfiguration" /> points to multiple endpoints
-    ///     (for example if consuming multiple topics with a single consumer).
+    ///     (for example, if consuming multiple topics with a single consumer).
     /// </summary>
     ConsumerEndpoint Endpoint { get; }
 
